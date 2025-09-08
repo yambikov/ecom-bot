@@ -1,0 +1,24 @@
+{"timestamp": "2025-09-08T13:29:04.590833", "type": "session_start", "content": "=== New session ===", "session_id": "20250908_132904", "tokens": 0}
+{"timestamp": "2025-09-08T13:29:15.359699", "type": "user_message", "content": "привет", "session_id": "20250908_132904", "tokens": 2}
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+{"timestamp": "2025-09-08T13:29:21.408074", "type": "bot_reply", "content": "Приглашаю менеджера. Он ответит вам через 3 минут.", "session_id": "20250908_132904", "tokens": 16}
+{"timestamp": "2025-09-08T13:30:17.798771", "type": "user_message", "content": "что ты умеешь?", "session_id": "20250908_132904", "tokens": 5}
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+{"timestamp": "2025-09-08T13:30:25.118711", "type": "bot_reply", "content": "Приглашаю менеджера. Он ответит вам через 3 минут.", "session_id": "20250908_132904", "tokens": 16}
+{"timestamp": "2025-09-08T13:31:08.868191", "type": "user_message", "content": "/oreder 111", "session_id": "20250908_132904", "tokens": 5}
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+{"timestamp": "2025-09-08T13:31:14.380597", "type": "bot_reply", "content": "Приглашаю менеджера. Он ответит вам через 3 минут.", "session_id": "20250908_132904", "tokens": 16}
+{"timestamp": "2025-09-08T13:31:25.187708", "type": "user_message", "content": "/order 333", "session_id": "20250908_132904", "tokens": 3}
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+{"timestamp": "2025-09-08T13:31:34.336118", "type": "bot_reply", "content": "Приглашаю менеджера. Он ответит вам через 3 минут.", "session_id": "20250908_132904", "tokens": 16}
+{"timestamp": "2025-09-08T13:34:24.078152", "type": "user_message", "content": "/order 12345", "session_id": "20250908_132904", "tokens": 4}
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+{"timestamp": "2025-09-08T13:34:31.886038", "type": "bot_reply", "content": "Приглашаю менеджера. Он ответит вам через 3 минут.", "session_id": "20250908_132904", "tokens": 16}
+{"timestamp": "2025-09-08T13:38:46.223013", "type": "user_message", "content": "какие запросы я тебе тлько что давал?", "session_id": "20250908_132904", "tokens": 13}
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+{"timestamp": "2025-09-08T13:38:53.697678", "type": "bot_reply", "content": "Приглашаю менеджера. Он ответит вам через 3 минут.", "session_id": "20250908_132904", "tokens": 16}
+{"timestamp": "2025-09-08T13:42:45.078187", "type": "user_message", "content": "ку-ку", "session_id": "20250908_132904", "tokens": 3}
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+{"timestamp": "2025-09-08T13:42:51.064401", "type": "bot_reply", "content": "Приглашаю менеджера. Он ответит вам через 3 минут.", "session_id": "20250908_132904", "tokens": 16}
+{"timestamp": "2025-09-08T13:42:55.965096", "type": "user_message", "content": "выход", "session_id": "20250908_132904", "tokens": 2}
+{"timestamp": "2025-09-08T13:42:55.965450", "type": "session_end", "content": "Session ended by command", "session_id": "20250908_132904", "tokens": 0}

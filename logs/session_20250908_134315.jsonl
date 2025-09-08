@@ -1,0 +1,18 @@
+{"timestamp": "2025-09-08T13:43:16.132689", "type": "session_start", "content": "=== New session ===", "session_id": "20250908_134315", "tokens": 0}
+{"timestamp": "2025-09-08T13:43:45.046457", "type": "user_message", "content": "я Викториус уммею пускать искры и пальцев, а что можешь ты?", "session_id": "20250908_134315", "tokens": 22}
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+{"timestamp": "2025-09-08T13:43:53.729382", "type": "bot_reply", "content": "Приятно, Викториус. Я — ассистент Shoply: помогаю с вопросами о доставке, оплате, возвратах и промокодах по нашему FAQ и при необходимости вызываю менеджера.", "session_id": "20250908_134315", "tokens": 49}
+{"timestamp": "2025-09-08T13:44:11.971602", "type": "user_message", "content": "вызови менеджера", "session_id": "20250908_134315", "tokens": 5}
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+{"timestamp": "2025-09-08T13:44:20.047248", "type": "bot_reply", "content": "Приглашаю менеджера. Он ответит вам через 17 минут.", "session_id": "20250908_134315", "tokens": 16}
+{"timestamp": "2025-09-08T13:44:31.384815", "type": "user_message", "content": "как меня зовут?", "session_id": "20250908_134315", "tokens": 5}
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+{"timestamp": "2025-09-08T13:44:39.886170", "type": "bot_reply", "content": "Вы — Викториус.", "session_id": "20250908_134315", "tokens": 6}
+{"timestamp": "2025-09-08T13:44:51.180177", "type": "user_message", "content": "как оформить возврат?", "session_id": "20250908_134315", "tokens": 5}
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+{"timestamp": "2025-09-08T13:44:56.559875", "type": "bot_reply", "content": "Вы можете оформить возврат в течение 14 дней. Сохраните чек и упаковку.", "session_id": "20250908_134315", "tokens": 19}
+{"timestamp": "2025-09-08T13:45:21.189824", "type": "user_message", "content": "у меня есть карта мир я могу ей оплатить заказ?", "session_id": "20250908_134315", "tokens": 12}
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+{"timestamp": "2025-09-08T13:45:27.654236", "type": "bot_reply", "content": "Приглашаю менеджера. Он ответит вам через 17 минут.", "session_id": "20250908_134315", "tokens": 16}
+{"timestamp": "2025-09-08T13:46:01.118335", "type": "user_message", "content": "выход", "session_id": "20250908_134315", "tokens": 2}
+{"timestamp": "2025-09-08T13:46:01.119075", "type": "session_end", "content": "Session ended by command", "session_id": "20250908_134315", "tokens": 0}

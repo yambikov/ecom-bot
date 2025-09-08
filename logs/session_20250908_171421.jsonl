@@ -1,0 +1,10 @@
+{"timestamp": "2025-09-08T17:14:21.440945", "type": "session_start", "content": "=== New session ===", "session_id": "20250908_171421", "tokens": 0}
+{"timestamp": "2025-09-08T17:14:28.903190", "type": "user_message", "content": "заказ 123456", "session_id": "20250908_171421", "tokens": 5}
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+{"timestamp": "2025-09-08T17:14:36.817653", "type": "bot_reply", "content": "Информации о заказе 123456 у меня нет.", "session_id": "20250908_171421", "tokens": 13}
+{"timestamp": "2025-09-08T17:14:41.692830", "type": "user_message", "content": "12345", "session_id": "20250908_171421", "tokens": 2}
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+{"timestamp": "2025-09-08T17:14:47.746456", "type": "bot_reply", "content": "Информации о заказе 12345 у меня нет.", "session_id": "20250908_171421", "tokens": 13}
+{"timestamp": "2025-09-08T17:15:00.038877", "type": "user_message", "content": "/order 12345", "session_id": "20250908_171421", "tokens": 4}
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+{"timestamp": "2025-09-08T17:15:06.740088", "type": "bot_reply", "content": "Заказ 12345: в пути (перевозчик ShoplyExpress). Ожидаемая доставка — через 2 дня.", "session_id": "20250908_171421", "tokens": 29}
