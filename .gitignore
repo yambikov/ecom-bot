@@ -3,6 +3,7 @@
 .env.local
 .env.*.local
 
+/logs
 # Виртуальные окружения
 venv/
 env/
